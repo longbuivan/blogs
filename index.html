@@ -48,6 +48,15 @@
             <div class="home">
                 <h2 class="post-list-heading">Posts</h2>
                 <ul class="post-list">
+                    <ul>
+                        {% for post in site.posts %}
+                        <!-- #disqus_thread is used for displaying the comment count after each blog -->
+                         <!-- do not display the comments info -->
+                            <!-- <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> (<a href="{{site.baseurl}}{{ post.url }}#disqus_thread"></a>)</li> -->
+                            <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%b %d, %Y' }}</time></li>
+                        {% endfor %}
+                    </ul>
+
                     <li><span class="post-meta">Dec 17, 2021</span>
                         <h3>
                             <a class="post-link" href="/2021/12/17/data-engineering.html">
@@ -59,13 +68,6 @@
                                 Exposing Data Engineer!
                             </a>
                         </h3>
-                        <ul>
-                            {% for post in site.posts %}
-                              <li>
-                                <a href="{{ post.url }}">{{ post.title }}</a>
-                              </li>
-                            {% endfor %}
-                          </ul>
                     </li>
                 </ul>
             </div>
