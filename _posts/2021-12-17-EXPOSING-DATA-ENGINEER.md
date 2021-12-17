@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Exposing-Data-Engineer"
-date: 2021-Dec-17 05:09:00 +0700
+title: "Exposing Data Engineer"
+date: 2021-12-17 05:09:00 +0700
 categories: WORK
 ---
 1. Introduction

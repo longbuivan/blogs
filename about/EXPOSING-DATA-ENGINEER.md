@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Exposing-Data-Engineer"
+title: "Exposing Data Engineer"
 date: 2021-12-17 05:09:00 +0700
 categories: WORK
 ---
@@ -11,3 +11,4 @@ categories: WORK
     - Required Skill for Data Engineer
     - Strongly supportive tools
 5. Use case of Data Pipeline building from Scratch
+6. Question and Anwser!
