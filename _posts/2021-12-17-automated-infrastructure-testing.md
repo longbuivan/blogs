@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Automated Infrastructure Testing"
+date: 2021-10-17 15:36:00 +0700
+categories: blog
+---
 # Automated Infrastructure Testing
 
 ## Description

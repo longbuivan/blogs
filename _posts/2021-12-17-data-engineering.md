@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Data Engineering"
-date: 2021-12-17 01:09:00 +0700
+date: 2021-5-5 01:09:00 +0700
 categories: blog
 ---
 1. Data Engineer Scope
