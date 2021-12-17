@@ -2,7 +2,7 @@
 layout: post
 title: "Exposing Data Engineer"
 date: 2021-12-17 05:09:00 +0700
-categories: WORK
+categories: blog
 ---
 1. Introduction
 2. Revising scope of Data Engineer
