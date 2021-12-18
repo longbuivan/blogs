@@ -17,4 +17,4 @@ I spend a lot of time for reading and learning about various system design and h
 
 Most of my work on personal project is on [Github](https://github.com/longbuivan)
 
-Please reach out to me via [email](longbuivan95@gmail.com). Feel free to open interest conversation and collaboration.
+Please reach out to me via [email](mailto:longbuivan95@gmail.com). Feel free to open interest conversation and collaboration.
