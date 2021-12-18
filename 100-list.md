@@ -13,4 +13,5 @@ layout: resume
 - [ ] Travel Europe
 - [ ] Be Teacher
 - [ ] Work in another Country
+- [ ] Learn foreign language
 - [ ] ...
