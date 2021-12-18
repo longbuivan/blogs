@@ -1,3 +1,32 @@
-theme: jekyll-theme-minimal
+# theme: minima
 title: LongBui's Homepage
 description: Hi there, I'm Long, a data engineer and writer.
+
+owner:
+  name: Long Bui
+  avatar: bio-photo.jpg
+  bio: "I am Long, Data Engineer and Writor"
+  email: longbuivan95@gmail.com
+  linkedin: long-bui-van-368816161/
+  github: longbuivan
+  instagram: long.bui12
+
+highlight-color: "#CC0000"
+lowlight-color: "#000"
+
+permalink: /:categories/:title/
+markdown: kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: compressed
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
