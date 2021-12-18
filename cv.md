@@ -22,7 +22,7 @@ layout: resume
 * 2016 - 2017: Intern Software Engineer - Ho Chi Minh City - Vietnam
   * Created and tested  automotive software.
   * Involved software development life cycle, help development team prevent issues as soon as possible.
-* 
+
 ## Projects
 
 * Setup mock AWS environment on local machine [AWS Mock](https://github.com/longbuivan/airflow-spark-data-pipeline)
