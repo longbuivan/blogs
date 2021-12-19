@@ -3,9 +3,9 @@ layout: page
 excerpt: "Long Bui's Homepage"
 ---
 
-Hi there, I am Long Bui, a data engineer and writor.
+Hi there, I am Long Bui, a data engineer and writer.
 
-I am full time Data Engineer and Writor in my free time.
+I am a full time Data Engineer and Writer in my free time.
 
 I bring data to from sources to lake as a Data Engineer in Ho Chi Minh City.
 
