@@ -3,7 +3,7 @@ layout: page
 excerpt: "Long Bui's Homepage"
 ---
 
-Hi there, I am Long Bui, a data engineer and writor.
+Hi there, I am Long Bui, a data engineer and writer.
 
 I am full time Data Engineer and Writor in my free time.
 
