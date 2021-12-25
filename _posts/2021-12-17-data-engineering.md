@@ -7,7 +7,7 @@ categories: blog
 
 This topic will discuss about who is data engineer in data platform and what they do for bring the data available for users. How to be come data engineer with needed skills.
 
-1. Data Engineer Scope
+## Data Engineer Scope
 
 - Design and uilding system for collecting, storing and analyzing data at scale.
 - The data engineering orgranization have the ability to collect massive amounts of data, ensure the data is highly reachable by data scientists and analyts.
@@ -16,7 +16,7 @@ This topic will discuss about who is data engineer in data platform and what the
 - Create new data validation methods and data analysis tools.
 - Ensure compliance with data governance and security policies.
 
-2. Data Engineering Skills
+## Data Engineering Skills
 
 - Most of the task of data engineer is focus on develoment, many data engineers start of as software engineers and prefered to have the software development skills because eventually data pipeline for data tools are just a software.
 - In advance, the data engineer can move into manaerial roles or become a data architect, solution architect or **machine learning engineer** who bring data data and model to production.
@@ -30,7 +30,7 @@ This topic will discuss about who is data engineer in data platform and what the
   - Data security: while most of the company have dedicated data security team, many data engineer are still tasked with securely managing and storing data to protect it from loss or theft.
   - A lot of skill are mentioning in _exposing-data-engineer_ post, including: DevOps, SecOps, CloudOps, DataOps.
 
-3. Data Engineer in Data platform
+## Data Engineer in Data platform
 
 - Data Modeling: Learing to create relational and NoSQL data model to fit the diverse needs of data consumers.
   - Data modeling with [Postgres](ttps://www.postgresql.org) for relational database
