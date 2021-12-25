@@ -1,7 +1,7 @@
 ---
 layout: resume
 ---
-100 List - a part of list
+List 100 - a part of list
 - [ ] Become Real Pricipal Data Engineer
 - [ ] Live in another Country
 - [x] Live in another City
@@ -14,4 +14,5 @@ layout: resume
 - [ ] Be Teacher
 - [ ] Work in another Country
 - [ ] Learn foreign language
-- [ ] ...
+- [ ] New Data Engineer Class
+- [ ] 
