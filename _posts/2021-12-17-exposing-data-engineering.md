@@ -4,6 +4,9 @@ title: "Exposing Data Engineer"
 date: 2021-12-17 05:09:00 +0700
 categories: blog
 ---
+
+As supporting skill for data engineer, CloudOps, DevOps, SecOps, DataOps is most of relevant key-words that are mentioned in Search Engine Platform.
+
 # Agenda
 
     1. Introduction
@@ -13,18 +16,16 @@ categories: blog
         - Required Skill for Data Engineer
         - Strongly supportive tools
     5. Use case of Data Pipeline building from Scratch
-    6. Question and Anwser!
 
 # Introduction
 
-> I’m silent ! Team contributes idea! Pair Working !
->
 > This topic is not focus on Data Engineering Concept
 >
-> **Data Engineering Club**
+> **Data Engineering Community** is in Slack channel: data-engineering-community
 
 # Scope of Data Engineer
 
+- Data Modeling
 - ETL Data
   - Working with ETL tools
 - Support data DA/DS
@@ -67,3 +68,5 @@ categories: blog
 ## Draft of Solution
 
 ## Idea from us ???
+
+Feel free to open discussion or comment your expertise about this topic.
