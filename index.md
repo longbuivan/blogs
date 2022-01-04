@@ -20,4 +20,4 @@ Most of my personal project can be found on [Github](https://github.com/longbuiv
 Please reach out to me via [email](mailto:longbuivan95@gmail.com). Feel free to start interesting conversation and collaboration.
 
 <br>
-*This is not my native langueage, apprecicating for your corrections and opinions*
+*This is not my native language, apprecicating for your corrections and opinions*
