@@ -1,21 +1,27 @@
+---
+layout: post
+title: "Touching into Spark Application"
+date: 2022-01-18 20:38:00 +0700
+categories: blog
+---
+
 # How to optimize Spark Application
 
-## Problem
+## Problems
 
-1. Problem with processing batching data is a big data need to be transform and action for specific purposes.
-
-2. Process data with Spark and read data from internal or external sources.
+1. Set up AWS EMR cluster for processing data in S3
+2. The data needs to join and compare with SCD1 data in AWS Dynamodb
+3. Data need to be processed in batch
+4. Issue with processing batching data is a big data that taking a lot of time to be processed
+5. ETL process includes transformation and action for enriching purposes.
+6. Process data with Spark and read data from internal or external sources.
 
 ## Issues
 
-- Bottle neck when processing huge data
+- Bottleneck when processing huge data
 - Various data enrichment during ETL process
-
-## Resolution
-
-- Scale up: horizon and virtical scale
-- Optimize code block
-- Allocate resources
+- Looping at `collect at <stdin> 89`
+- Data was out with fragmented files
 
 ## Idea
 
@@ -23,6 +29,13 @@
 2. Reduce Disk I/O.
 3. Improve/optimize CPU utilization by reducing any unnecessary computation, including filtering out unnecessary data, and ensuring that your CPU resources are getting utilized efficiently.
 4. Benefit from Spark’s in-memory computation, including caching when appropriate.
+
+## Resolution for Work-around
+
+- Scale up: horizon and vertical scale for instances
+- Teardown: delete unnecessary process/application on master and executors
+- Allocate resources: change number of executors and memory allocation for master and executor nodes
+- Reduce Shuffle: remove action in application
 
 ## Spark characteristics
 
@@ -42,7 +55,7 @@ When you are designing your datasets for your application, ensure that you are m
 
 Spark is optimized for Apache Parquet and ORC for read throughput. Spark has vectorization support that reduces disk I/O. Columnar formats work well.
 Use the Parquet file format and make use of compression.
-There are different file formats and built-in data sources that can be used in Apache Spark.Use splittable file formats.
+There are different file formats and built-in data sources that can be used in Apache Spark.Use split-able file formats.
 Ensure that there are not too many small files. If you have many small files, it might make sense to do compaction of them for better performance.
 
 ### Parallelism
@@ -67,7 +80,7 @@ spark.sql.shuffle.partitions = quotient (shuffle stage input size/target size)/t
 
 ### Filter/Reduce dataSet size
 
-Look for opportunities to filter out data as early as possible in your application pipeline. If there is a filter operation and you are only interested in doing analysis for a subset of the data, apply this filter early. If you can reduce the dataset size early, do it. Use appropriate filter predicates in your SQL query so Spark can push them down to the underlying datasource; selective predicates are good. Use them as appropriate. Use partition filters if they are applicable.
+Look for opportunities to filter out data as early as possible in your application pipeline. If there is a filter operation and you are only interested in doing analysis for a subset of the data, apply this filter early. If you can reduce the dataset size early, do it. Use appropriate filter predicates in your SQL query so Spark can push them down to the underlying data-source; selective predicates are good. Use them as appropriate. Use partition filters if they are applicable.
 
 ### Cache appropriately
 
