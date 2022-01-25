@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.0] 2022-01-25
+
+- New post for data migration validation
+- Fix syntax in previous posts
+
 ## [1.1.0] 2022-01-18
 
 - New post for optimizing spark application
