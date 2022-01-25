@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.0] 2022-01-18
+
+- New post for optimizing spark application
+- Need to reference link to exposing data engineering
+
 ## [1.0.2] 2022-01-04
 
 - Update intro in main-page

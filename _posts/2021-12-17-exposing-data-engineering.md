@@ -7,7 +7,9 @@ categories: blog
 
 As supporting skill for data engineer, CloudOps, DevOps, SecOps, DataOps is most of relevant key-words that are mentioned in Search Engine Platform.
 
-# Agenda
+# Exposing Data Engineer
+
+## Agenda
 
     1. Introduction
     2. Revising scope of Data Engineer
@@ -17,13 +19,13 @@ As supporting skill for data engineer, CloudOps, DevOps, SecOps, DataOps is most
         - Strongly supportive tools
     5. Use case of Data Pipeline building from Scratch
 
-# Introduction
+## Introduction
 
 > This topic is not focus on Data Engineering Concept
 >
 > **Data Engineering Community** is in Slack channel: data-engineering-community
 
-# Scope of Data Engineer
+## Scope of Data Engineer
 
 - Data Modeling
 - ETL Data
@@ -34,15 +36,15 @@ As supporting skill for data engineer, CloudOps, DevOps, SecOps, DataOps is most
 - What Else ?
 - ...
 
-# Supporting Components for Data Pipeline
+## Supporting Components for Data Pipeline
 
 - Version Control - [Git](https://git-scm.com)
-- Continuous Integration and Continuous Deployment - [Jenkin](https://www.jenkins.io)
+- Continuous Integration and Continuous Deployment - [Jenkin](https://www.jenkins.io) - [Github Action](https://github.com/features/actions)
 - Configuration Management - [Terraform](https://www.terraform.io)
 - Monitoring - [Datadog](https://www.datadoghq.com) or [Splunk](https://www.splunk.com)
 - Security - IAM
 
-# Use case
+## Use case
 
 ## Business Problem
 
@@ -51,7 +53,7 @@ As supporting skill for data engineer, CloudOps, DevOps, SecOps, DataOps is most
 
 ## Technical Required
 
-#### Data
+### Data
 
     Near real-time pipeline
     Star schema
@@ -64,9 +66,3 @@ As supporting skill for data engineer, CloudOps, DevOps, SecOps, DataOps is most
     Monitoring and Alert
     Backfill with wrong data
     Disaster Recovery
-
-## Draft of Solution
-
-## Idea from us ???
-
-Feel free to open discussion or comment your expertise about this topic.
