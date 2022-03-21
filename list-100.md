@@ -2,7 +2,8 @@
 layout: resume
 ---
 List 100 - a part of list
-- [ ] Become Real Pricipal Data Engineer
+
+- [ ] Become Real Principal Data Engineer
 - [ ] Live in another Country
 - [x] Live in another City
 - [ ] Start a company
@@ -11,8 +12,8 @@ List 100 - a part of list
 - [ ] Build my own home even house
 - [ ] Travel Southest Asia
 - [ ] Travel Europe
-- [ ] Be Teacher
+- [x] Be Teacher
 - [ ] Work in another Country
 - [ ] Learn foreign language
 - [ ] New Data Engineer Class
-- [ ] 
+- [ ] Blog for daily

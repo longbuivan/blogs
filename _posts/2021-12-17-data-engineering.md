@@ -45,3 +45,9 @@ This topic will discuss about who is data engineer in data platform and what the
 - Data pipeline with Automatic tasks:
   - schedule, automate and monitor data pipelines with DAG frameworks such as [Airflow](https://airflow.apache.org).
   - Run data quality checks, track data lineage, release data pipeline to production.
+
+## How do we start with Data Engineer Project from Scratch ???
+
+- The most question from beginner was being How can we start a Data Engineering Project and Where we can be ? Understand my question from many years ago. I do have a summary and list out features where we can start, consolidating a Road-map shall help people like me can catch up Data Engineer with very fundamental skills to advanced skills.
+- Here are my Documentation of Feature Engineering
+[From here](../Features.md)
