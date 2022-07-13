@@ -36,6 +36,11 @@ categories: blog
 - Teardown: delete unnecessary process/application on master and executors
 - Allocate resources: change number of executors and memory allocation for master and executor nodes
 - Reduce Shuffle: remove action in application
+- Using Thread for reading and writing dataset into File System (HDFS or S3)
+
+In order to deeply understand how Spark works and how optimize Spark Application implements, walk through Spark characteristics helps us to have clearly picture and further development approaches.
+
+# Reference
 
 ## Spark characteristics
 
