@@ -6,7 +6,7 @@ categories: blog
 ---
 
 
-During design and develop data platform, the good data is more important than data large data and certain problems need to deal with is control data quality from pre-processing and post-processing. It's significantly eliminating the **hard-core** of 5Vs character in Big Data.
+When designing and developing data platforms, good data is more important than large data and certain problems need to be dealt with to control data quality from pre-processing and post-processing. It's significantly eliminating the **hard-core** 5Vs character in Big Data.
 
 ## Data Lineage
 
