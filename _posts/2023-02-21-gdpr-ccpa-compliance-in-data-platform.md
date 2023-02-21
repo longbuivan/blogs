@@ -7,7 +7,7 @@ categories: blog
 
 As technology advances and companies continue to collect and process large amounts of personal data and most data project requires data governance with data security, data privacy within the platform. From a data engineering perspective, how do we comply with those requirements?
 Summary: in the article, Author pointed out details of scenarios and use cases with sample implementation on Databricks and follow Lakehouse architecture.
-![alt text](/images/post/gdpr-ccpa.png.png "Data Privacy")
+![alt text](/images/post/gdpr-ccpa.png "Data Privacy")
 
 ### Scenario 1 - Anonymization of PII Data using Data Masking
 
