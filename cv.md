@@ -2,7 +2,7 @@
 layout: resume
 ---
 
-# Curriculum Vitae
+# Make things simpler with feasible and practicalities
 
 ## Experiences
 
