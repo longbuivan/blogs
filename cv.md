@@ -28,14 +28,13 @@ layout: resume
   - Performing metric tracking, report out to high level for yield and productivity
   - Using decision tree to predict a root causes that impact to product performance.
 
-
 - 2016 - 2017: Intern Software Engineer - Ho Chi Minh City - Vietnam
   - Created and tested automotive software.
   - Contributed to the software development life cycle, assisted development team prevent issues as soon as possible.
 
 ## Projects
 
-- Data paltform project for open source [Data SAS](https://github.com/longbuivan/longbuivan.github.io)
+- Data platform project for open source [Data SAS](https://github.com/longbuivan/longbuivan.github.io)
 - Data Lineage project using GraphDB [Data Lineage](https://github.com/longbuivan/data-lineage-as-network)
 - Steaming Data with AWS Kinesis [Streaming Data](https://github.com/longbuivan/livestream-data-pipeline)
 - Data Built Tool - dbt for data modeling [DBT](https://github.com/longbuivan/dbt-project-structuring)
@@ -43,7 +42,7 @@ layout: resume
 - Automated Cloud Infrastructure Testing [Infra Testing with Go](https://github.com/longbuivan/automated-infra-**testing**)
 - Parsing e-commerce data, store as semi-structure data in NoSQL database - [Web scraping](https://github.com/longbuivan/tiki_scrapper_db)
 - Engineering stream video data to understand user behavior with Spark and Airflow [Data pipeline with Spark and Airflow](https://github.com/longbuivan/airflow-spark-data-pipeline)
-- Predict bird-strike impact in avaiation using Supervise Models [Supervissed Models](https://github.com/longbuivan/bird_strike_prediction)
+- Predict bird-strike impact in Aviation using Supervise Models [Supervised Models](https://github.com/longbuivan/bird_strike_prediction)
 
 ## Education
 
@@ -51,7 +50,7 @@ layout: resume
 
 ## Awards
 
-### Regconized
+### Recognized
 
 - Top Performer of the year
 - Leading Development to build up streaming data application, bring data model to platform for analysis

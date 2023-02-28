@@ -1,7 +1,7 @@
 ---
 layout: resume
 ---
-List 100 - a part of list
+# List 100 - a part of list
 
 - [x] Become Real Principal Data Engineer
 - [x] Live in another Country
