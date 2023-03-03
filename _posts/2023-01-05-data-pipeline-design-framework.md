@@ -2,7 +2,7 @@
 layout: post
 title: "Zero - ETL ?"
 date: 2023-01-17 10:59:00 +0700
-categories: work
+categories: blog
 ---
 
 # Zero ETL ?

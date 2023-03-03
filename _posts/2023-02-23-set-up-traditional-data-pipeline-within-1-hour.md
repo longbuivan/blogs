@@ -2,7 +2,7 @@
 layout: post
 title: "1 HOUR for setting data pipeline"
 date: 2023-02-23 13:07:00 +0700
-categories: work
+categories: blog
 ---
 
 ## Know about the data pipeline

@@ -2,7 +2,7 @@
 layout: post
 title: "Data Migration Validation"
 date: 2022-01-25 11:05:00 +0700
-categories: work
+categories: blog
 ---
 # Data Migration Validation
 
