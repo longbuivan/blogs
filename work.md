@@ -1,4 +1,4 @@
 ---
-layout: presentation-post-index
+layout: post-index
 title: Work
 ---
