@@ -30,6 +30,10 @@ This topic will discuss about who is data engineer in data platform and what the
   - Data security: while most of the company have dedicated data security team, many data engineer are still tasked with securely managing and storing data to protect it from loss or theft.
   - A lot of skill are mentioning in _exposing-data-engineer_ post, including: DevOps, SecOps, CloudOps, DataOps.
 
+### Learning Path and Development Road-map
+<!-- insert image -->
+![alt text](/images/post/de-roadmap.png "Data Engineering Roadmap")
+
 ## Data Engineer in Data platform
 
 - Data Modeling: Learning to create relational and NoSQL data model to fit the diverse needs of data consumers.
@@ -50,4 +54,3 @@ This topic will discuss about who is data engineer in data platform and what the
 
 - The most question from beginner was being How can we start a Data Engineering Project and Where we can be ? Understand my question from many years ago. I do have a summary and list out features where we can start, consolidating a Road-map shall help people like me can catch up Data Engineer with very fundamental skills to advanced skills.
 - Here are my Documentation of Feature Engineering
-[From here](../Features.md)
