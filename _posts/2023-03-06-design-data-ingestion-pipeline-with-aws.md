@@ -4,6 +4,7 @@ title: "Design Data Ingestion Pipeline with AWS - Amazon Web Services"
 date: 2023-03-06 09:34:00 +0700
 categories: blog
 ---
+Traditional Design of Data Ingestion Pipeline
 
 ## 1. Requirements Analysis
 
