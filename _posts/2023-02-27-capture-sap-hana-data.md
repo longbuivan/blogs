@@ -2,7 +2,7 @@
 layout: post
 title: "SAP HANA - Capture Data Change using Lambda"
 date: 2023-02-27 14:36:00 +0700
-categories: work
+categories: blog
 ---
 
 ## Definition

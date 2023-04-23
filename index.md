@@ -2,6 +2,7 @@
 layout: page
 excerpt: "Long Bui's Homepage"
 ---
+## **Introduction**
 
 Hello World,
 
@@ -18,6 +19,14 @@ I usually spend a lot of time for reading and studying about various system desi
 Most of my personal project can be found on [Github](https://github.com/longbuivan)
 
 Please reach out to me via [email](mailto:longbuivan95@gmail.com). Feel free to start interesting conversation and collaboration.
+## **Portfolio**
+
+1. Designing and Implementing Data Engineering, DataOps, Data Systems.
+2. Working in Solution Architecture for DMP, CRM, ERP Systems.
+3. Consultant for Data Engineering and Data Operations and Data Systems.
+4. Mentoring and Coaching Academy Course of Data Engineering.
+5. Participating Data Platform Proposal and Data Systems strategies.
+
 
 <br>
 *This is not my native language, appreciating for your corrections and opinions*
