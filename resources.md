@@ -7,17 +7,17 @@ All of blogs posted here [this blog](https://longbuivan.github.io/blog/), but so
 
 ## Get started in data engineering
 
-[Book](https://longbuivan.github.io/cv) (on going)
+- [Book](https://longbuivan.github.io/cv) (on going)
 
-[Data engineering fundamental](https://longbuivan.github.io/blog/data-engineering/) (on going)
-[Data operations](https://longbuivan.github.io/blog/data-ops-for-modern-data-warehouse/) (on going)
-[Creating sample data pipeline - end to end](https://longbuivan.github.io/blog/set-up-traditional-data-pipeline-within-1-hour/)
+- [Data engineering fundamental](https://longbuivan.github.io/blog/data-engineering/) (on going)
+- [Data operations](https://longbuivan.github.io/blog/data-ops-for-modern-data-warehouse/) (on going)
+- [Creating sample data pipeline - end to end](https://longbuivan.github.io/blog/set-up-traditional-data-pipeline-within-1-hour/)
 
-## Data Engineer Interview
+## Data engineer interview
 
-[Code]
-[Post]
-[Video]
+- [Code]
+- [Post]
+- [Video]
 
 ## Courses
 
