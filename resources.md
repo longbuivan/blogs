@@ -15,10 +15,11 @@ All of blogs posted here [this blog](https://longbuivan.github.io/blog/), but so
 
 ## Data engineer interview
 
-- [Code]
-- [Post]
+- [Code] 
+- [Question] [List of Question for Data Engineer Interview](./_resources/2023-04027-data-engineering-question-list.md)
+- [Checklist] [Checklist for Data Architect](./_posts/2023-04-27-modern-data-architecture-assessment.md)
 - [Video]
 
 ## Courses
 
-I am working to crate Course for data engineering and data operations and will be published soon.
+I am working to create Course for data engineering and data operations and will be published soon.
