@@ -13,5 +13,5 @@ I keep a list of my highlights of data development logs. For more projects, clic
 4. **Technical blogging**: Visit [blogs](https://longbuivan.github.io/blog/) , [talk](https://www.youtube.com/channel/UCZ83p2Vp48ytcfVA6GchjLA)
 
 In case you're interested, reach out to me at here.
-<br>
+<br></br>
 *This is not my native language, appreciating for your corrections and opinions*

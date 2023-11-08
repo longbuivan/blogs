@@ -38,11 +38,11 @@ This topic will discuss about who is data engineer in data platform and what the
 
 - Data Modeling: Learning to create relational and NoSQL data model to fit the diverse needs of data consumers.
   - Data modeling with [Postgres](https://www.postgresql.org) for relational database
-  - Data modeling with [Apache Cassandra](https://cassandra.apache.org/_/index.html) for NoSQL database
+  - Data modeling with [MongoDB](https://www.mongodb.com/docs/compass/current/) for NoSQL database
 - Cloud Data Warehouse: create data warehouse with cloud solution with understanding of data infrastructure with Amazon Web Services ([AWS](https://aws.amazon.com/console/))
   - Infrastructure as Code ([IaC](https://en.wikipedia.org/wiki/Infrastructure_as_code))
   - Database infrastructure
-  - Populate data into data warehouse
+  - Populate data into data warehouse [Databrick](https://www.databricks.com/)
 - Big data and Data Lakes: understand the big data ecosystem and how [Spark](https://spark.apache.org) helps in the working with massive datasets.
   - Processing big data with big data framework
   - And storing big data in a data lake with queryable with Spark
