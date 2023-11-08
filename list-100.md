@@ -8,13 +8,12 @@ layout: resume
 - [x] Live in another City
 - [ ] Start a company
 - [ ] Write a book
-- [ ] Read 1000 books - progress 30/1000
 - [ ] Build my own home even house
 - [x] Travel Southeast Asia
-- [ ] Travel Europe
 - [x] Be Teacher
 - [ ] Work in another Country
 - [x] Learn foreign language
 - [x] New Data Engineer Class
 - [x] Blog for daily
-- [ ] Podcast Content for Engineering
+- [x] Data Developer course
+- [ ] Live in hometown

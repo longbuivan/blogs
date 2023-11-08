@@ -1,11 +1,11 @@
 # theme: minima
-title: LongBui's Homepage
-description: Hi there, I'm Long, a data engineer and writer.
+title: LongBui's
+# description: Hi there, I'm Long, a data engineer and writer.
 
 owner:
   name: Long Bui
   avatar: bio-photo.jpg
-  bio: "I am Long, Data Engineer and Writer"
+  bio: "I am Long, Data Developer and Technical Writer"
   email: longbuivan95@gmail.com
   linkedin: long-bui-van-368816161/
   github: longbuivan

@@ -2,7 +2,7 @@
 
 ## **Website**
 
-**https://longbuiengineer.wordpress.com**
+**https://longdatadevlog.wordpress.com**
 
 ## **Email Address**
 
