@@ -12,7 +12,7 @@ Owner: Long Bui (longdatadevlog)
 
 I designed the course with 7 years experience in data development, the course can help you to have foundation of data engineering, software engineering. You can be able to understand the fundamental of data system and what have been changing in data.
 
-![Course Introduction](../_site/images/post/data-developer-course.png)
+![Course Introduction](/images/post/data-developer-course.png)
 
 ## Contents
 
