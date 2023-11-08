@@ -1,4 +1,13 @@
-## Data Engineering Questionnaire
+---
+layout: post
+title: "Data Engineering Question List"
+date: 2023-04-27 09:34:00 +0700
+categories: blog
+---
+
+In order to unblock and get impressed Interviewer as well as revise data engineering knowledge, this list or question is good source to walk through and practice.
+
+
 
 1. What project are you working on ? Introduce your self
 2. What is your main role ? such as design data pipeline ? => I am playing a Data Engineer role in project as providing high quality technical solution for data pipeline design and featuring in detail for development, integration, maintenance, operation.
