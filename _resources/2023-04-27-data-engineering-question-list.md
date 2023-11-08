@@ -53,4 +53,3 @@
 31. What is Data governance ? Data Quality and Validation ? Data Reconciliation ?
 32. Basic Architecture Graphics for Data Platform or Data Applications ?
 33. What and Why have caching and buffering enabled during data loading and data reporting process.
-34.
