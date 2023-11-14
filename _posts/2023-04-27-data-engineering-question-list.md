@@ -18,12 +18,13 @@ A Data Engineer role in project as providing high quality technical solution for
 Data engineer or Data developer are working as software developer with Agile culture, applying Scrum activities in daily basis, we understand that the data pipeline is developed and deployed using CICD. Code and changelog are pushed to Code Repository with accordingly functionality of codebase. The code changes would require to be tested and verified before merge into production.
 
 For more details, the data pipeline is structured as follows structure:
-_ `src`: contains the source code of the data pipeline
-_ `resources`: contains the resources used by the data pipeline
-_ `infra`: contains the IaC to provision the data pipeline
-_ `test`: includes the test functions
-_ `docs`: places the documentation
-_ `poetry`: places the environment, development dependencies \* `.workflow`: where defined CICD workflow is used
+
+* `src`: contains the source code of the data pipeline
+* `resources`: contains the resources used by the data pipeline
+* `infra`: contains the IaC to provision the data pipeline
+* `test`: includes the test functions
+* `docs`: places the documentation
+* `poetry`: places the environment, development dependencies \* `.workflow`: where defined CICD workflow is used
 
 #### 1.2. Which Cloud Services used to work? Do you found any alternative solution or service and improve your tech debt ? Technical issue?
 
@@ -31,18 +32,18 @@ In order to use Cloud Services for data project, consider providers of cloud ser
 
 For only data pipelines point of view, consider the service which are suitable for data application with criterial likes:
 
-- Scalability
-- Resilient
-- Efficient
+* Scalability
+* Resilient
+* Efficient
 
 There are several different services available, but microservices is a pattern that should be considered when designing and implementing the application for ore easier to de-coupling and debugging as well as providing the ability to maintain easily.
 
-### What kind of modeling technique you follow when design DWH ? => Star schema design for shaping dimensional model, follow new technique as Lake-house design.
+### What kind of modeling technique you follow when design DWH ? => Star schema design for shaping dimensional model, follow new technique as Lake-house design
 
 Designing Data Model is the most important thing and requires a lot of technique, including business logic. Specifically for creating data warehouse with more than 10 years of **Kimball** and **Immon** DWH toolkit. The technique of designing data warehouse are:
 
-- Top-Down: where you have business, object defined that data warehouse is built for splitting to data-marts
-- Bottom-Up: where you are not sure with your data and use cases of where data can help to answer the question by building data warehouse from data-marts
+* Top-Down: where you have business, object defined that data warehouse is built for splitting to data-marts
+* Bottom-Up: where you are not sure with your data and use cases of where data can help to answer the question by building data warehouse from data-marts
 
 ### What # of fact and dimension tables ? Why do we need 2 kind of tables?
 
@@ -55,7 +56,6 @@ There are 5 types of data models operation: roll-up, drill-down, rotate, slice, 
 ### Getting data from different sources, loading data to data lakes, how do you connect from cloud system to intranet ?
 
 Setup DX or VPC connectivity, setup gateway, set up proxy and security, setup networking and routing in VPC, hosting resources on VPC, provision resource in VPC with Connector to load data in intranet.
-
 ### Have you heard about data gateway ?
 
 Where data is loading with data quality gate is front of destination to control the output/input of data.
@@ -70,18 +70,20 @@ depend on source system: API, DB, Shared file. ingesting new data with CDC.
 
 Using checkpoint method to capture where the data has been copy, the checkpoint should: 1.last_updated_datetime to capture is there any changes on current data; 2.row_count( with nolock system) to capture any new data insert.
 
+
 ### Company has many offices in different countries
 
-- each office has employees
-- data is fetched in different locations
-- each office will provide file every month
-- how do you design ETL from different files?
+  - each office has employees
+  - data is fetched in different locations
+  - each office will provide file every month
+  - how do you design ETL from different files?
+
 
 File format will be same, data will be aggregated into single table, employee left organization will be marked => need to set up connection by the File shared location (propose to use Box because version control), adding plugin to integrate Box with data pipeline, create master_data for manage where the file is coming from and add this field to ingestion pipeline, but need to consider this solution because that will increase storage. Define physical and logical schema for destination dataset. Create a DAG which is includes all step to ingest file into DL, then extract it and tagging the source systems, loading data into RDBMS.
 
 ### Which transformation when you do data pipeline ?
 
-Streaming processing. ingesting data via API gateway, put data into streaming data buffer with relevant partition key for balancing loader and ingester. extract data as flatten format and send to buffer to delivery data into DL, create catalog and schema for ingestion and analysis and reference. Modeling data and creating SCD pipeline. Create dimensional model on Virtual DWH and data marts. Implement failing data handler and refill data handler. Adding metric to monitor data quality and data lineage. Create data security to encrypt data on DL. exposing data to BI tools or API gateway. Manage resources of data pipeline with IaC, integrate data pipeline with DevOps tools. automating data pipeline with DataOps process,
+Streaming processing. ingesting data via API gateway, put data into streaming data buffer with relevant partition key for balancing loader. extract data as flatten format and send to buffer to delivery data into DL, create catalog and schema for ingestion and analysis and reference. Modeling data and creating SCD pipeline. Create dimensional model on Virtual DWH and data marts. Implement failing data handler and refill data handler. Adding metric to monitor data quality and data lineage. Create data security to encrypt data on DL. exposing data to BI tools or API gateway. Manage resources of data pipeline with IaC, integrate data pipeline with DevOps tools. automating data pipeline with DataOps process,
 
 ### Give high level design data pipeline ?
 
@@ -90,10 +92,14 @@ There are 5-tiers as good as data pipeline should follows is:
 - Data Sources
 - Data Backend tier
 - Data Warehouse tier
-- Data OLAP/CUDE tier
+- Data OLAP/CUBE tier
 - Data Frontend tier
 
-### Spark optimization - Data processing optiization
+### Data Loading - Data Capture
+
+### Ensure Data Quality by using set of quality dimensions
+
+### Spark optimization - Data processing optimization
 
 ### DAG Design in data pipeline: Task, Stage, Job difference
 
@@ -105,7 +111,7 @@ There are 5-tiers as good as data pipeline should follows is:
 
 ### Some way to ingest data
 
-### Azure Sercices ? Specifying Which resource to use for data integration, storage and modeling?
+### Azure Services ? Specifying Which resource to use for data integration, storage and modeling?
 
 ### AWS Services ? Specifying which service to use Data Platform
 
@@ -117,16 +123,18 @@ There are 5-tiers as good as data pipeline should follows is:
 
 ### What and Why have caching and buffering enabled during data loading and data reporting process.
 
-## Coding Example:
+### Implementing Change Data Capture
+
+## Coding Example
 
 ### Give me a query for a scenario: Table: Customer: Customer ID, Name
 
-Talbe 2: Order: Order ID, Customer ID, Order Date, Order Amount
-List of customer who has never place the order =>
-"select cust.customer_name
-from Customer cust
-left join Order ord on cust.customer_id = ord.customer_id
-where order_amount is null or order_date is null"
+   Talbe 2: Order: Order ID, Customer ID, Order Date, Order Amount
+   List of customer who has never place the order =>
+   "select cust.customer_name
+   from Customer cust
+   left join Order ord on cust.customer_id = ord.customer_id
+   where order_amount is null or order_date is null"
 
 ### Given order_tab (ord_id, name, time, qty, price), customer_tab (cust_id, name, ord_id)
 
