@@ -3,16 +3,16 @@ layout: resources
 title: Resources
 ---
 
-All of blogs posted here [this blog](https://longbuivan.github.io/blog/), but somethings here are helpful for me for working and getting knowledge.
+All of blogs posted here [this blog](https://github.longdatadevlog.com/blog/), but somethings here are helpful for me for working and getting knowledge.
 
 
 ## Get started in data engineering
-* [Free HandBook - Data Engineering](https://longbuivan.github.io/)
-* [Data Developer Course](https://longbuivan.github.io/blog/data-developer-course/)
-* [Data Warehouse Design](https://longbuivan.github.io/blog/data-ops-for-modern-data-warehouse/)
-* [Creating sample data pipeline - end to end](https://longbuivan.github.io/blog/set-up-traditional-data-pipeline-within-1-hour/)
-* [List of Question for Data Engineer Interview](https://longbuivan.github.io/blog/data-engineering-question-list)
-* [Checklist for Data Architect](https://longbuivan.github.io/blog/modern-data-architecture-assessment)
+* [Free HandBook - Data Engineering](https://github.longdatadevlog.com/)
+* [Data Developer Course](https://github.longdatadevlog.com/blog/data-developer-course/)
+* [Data Warehouse Design](https://github.longdatadevlog.com/blog/data-ops-for-modern-data-warehouse/)
+* [Creating sample data pipeline - end to end](https://github.longdatadevlog.com/blog/set-up-traditional-data-pipeline-within-1-hour/)
+* [List of Question for Data Engineer Interview](https://github.longdatadevlog.com/blog/data-engineering-question-list)
+* [Checklist for Data Architect](https://github.longdatadevlog.com/blog/modern-data-architecture-assessment)
 
 <br>
 

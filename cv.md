@@ -34,7 +34,7 @@ layout: resume
 
 ## Projects
 
-- Data platform project for open source [Data SAS](https://github.com/longbuivan/longbuivan.github.io)
+- Data platform project for open source [DataOpenApis](https://github.com/longbuivan/open-data-apis)
 - Data Lineage project using GraphDB [Data Lineage](https://github.com/longbuivan/data-lineage-as-network)
 - Steaming Data with AWS Kinesis [Streaming Data](https://github.com/longbuivan/livestream-data-pipeline)
 - Data Built Tool - dbt for data modeling [DBT](https://github.com/longbuivan/dbt-project-structuring)

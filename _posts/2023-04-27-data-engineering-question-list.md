@@ -42,6 +42,8 @@ There are several different services available, but microservices is a pattern t
 
 Designing Data Model is the most important thing and requires a lot of technique, including business logic. Specifically for creating data warehouse with more than 10 years of **Kimball** and **Immon** DWH toolkit. The technique of designing data warehouse are:
 
+#### Approaching to data modeling
+
 * Top-Down: where you have business, object defined that data warehouse is built for splitting to data-marts
 * Bottom-Up: where you are not sure with your data and use cases of where data can help to answer the question by building data warehouse from data-marts
 
@@ -56,6 +58,7 @@ There are 5 types of data models operation: roll-up, drill-down, rotate, slice, 
 ### Getting data from different sources, loading data to data lakes, how do you connect from cloud system to intranet ?
 
 Setup DX or VPC connectivity, setup gateway, set up proxy and security, setup networking and routing in VPC, hosting resources on VPC, provision resource in VPC with Connector to load data in intranet.
+
 ### Have you heard about data gateway ?
 
 Where data is loading with data quality gate is front of destination to control the output/input of data.
@@ -70,42 +73,66 @@ depend on source system: API, DB, Shared file. ingesting new data with CDC.
 
 Using checkpoint method to capture where the data has been copy, the checkpoint should: 1.last_updated_datetime to capture is there any changes on current data; 2.row_count( with nolock system) to capture any new data insert.
 
-
-### Company has many offices in different countries
-
-  - each office has employees
-  - data is fetched in different locations
-  - each office will provide file every month
-  - how do you design ETL from different files?
-
-
-File format will be same, data will be aggregated into single table, employee left organization will be marked => need to set up connection by the File shared location (propose to use Box because version control), adding plugin to integrate Box with data pipeline, create master_data for manage where the file is coming from and add this field to ingestion pipeline, but need to consider this solution because that will increase storage. Define physical and logical schema for destination dataset. Create a DAG which is includes all step to ingest file into DL, then extract it and tagging the source systems, loading data into RDBMS.
-
 ### Which transformation when you do data pipeline ?
 
-Streaming processing. ingesting data via API gateway, put data into streaming data buffer with relevant partition key for balancing loader. extract data as flatten format and send to buffer to delivery data into DL, create catalog and schema for ingestion and analysis and reference. Modeling data and creating SCD pipeline. Create dimensional model on Virtual DWH and data marts. Implement failing data handler and refill data handler. Adding metric to monitor data quality and data lineage. Create data security to encrypt data on DL. exposing data to BI tools or API gateway. Manage resources of data pipeline with IaC, integrate data pipeline with DevOps tools. automating data pipeline with DataOps process,
+#### Streaming processing
+
+Ingesting data via API gateway, put data into streaming data buffer with relevant partition key for balancing loader
+Extract data as flatten format and send to buffer to delivery data into DL, create catalog and schema for ingestion and analysis and reference
+Modeling data and creating SCD pipeline.
+Create dimensional model on Virtual DWH and data marts.
+Implement failing data handler and refill data handler.
+Adding metric to monitor data quality and data lineage.
+Create data security to encrypt data on DL.
+Exposing data to BI tools or API gateway.
+Manage resources of data pipeline with IaC, integrate data pipeline with DevOps tools.
+Automating data pipeline with CICD.
+
+#### Batching and micro-batch processing
+
+Data reconciliation is done when data had migrated from on-prem to cloud storage
+Handling data was changing during the migration
+Process Dimension data loading process
+
 
 ### Give high level design data pipeline ?
 
 There are 5-tiers as good as data pipeline should follows is:
 
-- Data Sources
-- Data Backend tier
-- Data Warehouse tier
-- Data OLAP/CUBE tier
-- Data Frontend tier
+* Data Sources
+* Data Backend tier
+* Data Warehouse tier
+* Data OLAP/CUBE tier
+* Data Frontend tier
 
 ### Data Loading - Data Capture
 
+Depending on the data source and data availability requirements, the data will be loaded and refreshed as needed.
+
+Type of data loads is determined by:
+
+* Full Load: loading small data (ex: dimensions, master data, etc)
+* Delta Load: transactional data
+
+Engineering Technique to load data:
+
+* Incremental: split data into smaller chunks
+* Snapshot: snapshot data and merge into destination
+
 ### Ensure Data Quality by using set of quality dimensions
+
+Data Quality is key factor used to evaluate the quality of data
+Data Quality Dimensions are understood and had been implemented to check data quality: Timeliness, Uniqueness, Validity, Consistency, Accuracy, Completeness.
+
+### What and Why have caching and buffering enabled during data loading and data reporting process.
+
+### Implementing Change Data Capture
 
 ### Spark optimization - Data processing optimization
 
 ### DAG Design in data pipeline: Task, Stage, Job difference
 
 ### What is distributed System ? Disk ? Compute ?
-
-### Approaching to data modeling
 
 ### Data Tiering ? Data Lifecycle ?
 
@@ -120,10 +147,6 @@ There are 5-tiers as good as data pipeline should follows is:
 ### What is Data governance ? Data Quality and Validation ? Data Reconciliation ?
 
 ### Basic Architecture Graphics for Data Platform or Data Applications ?
-
-### What and Why have caching and buffering enabled during data loading and data reporting process.
-
-### Implementing Change Data Capture
 
 ## Coding Example
 
