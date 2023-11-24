@@ -2,8 +2,13 @@
 layout: post
 title: "Data Migration Validation"
 date: 2022-01-25 11:05:00 +0700
+modified: 2023-11-24 13:02:00 +0700
+description: Quality Dimension during data migration
 categories: blog
+comments: true
+tags: [datadev, course]
 ---
+{% include _toc.html %}
 # Data Migration Validation
 
 In nowadays, a lot of companies and cooperation are preparing and migrating On-premises data on Legacy system to new system with high scalability, reliability and resiliency as core tenets of Data Platform.

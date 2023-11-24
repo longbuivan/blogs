@@ -2,8 +2,14 @@
 layout: post
 title: "Data Vault Principles"
 date: 2023-03-13 13:52:00 +0700
+modified: 2023-11-24 13:02:00 +0700
+description: Data Vault Architect Documentation
 categories: blog
+comments: true
+tags: [datadev, course]
 ---
+
+{% include _toc.html %}
 
 ## What is Data Vault ? How it helps in data architect system ?
 

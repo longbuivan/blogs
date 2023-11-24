@@ -2,9 +2,15 @@
 layout: post
 title: "GDPR AND CCPA COMPLIANCE IN DATA PIPELINE"
 date: 2023-02-21 15:13:00 +0700
+modified: 2023-11-24 13:02:00 +0700
+description: Question about Data Security and Privacy
 categories: blog
+comments: true
+tags: [datadev, course]
 ---
+{% include _toc.html %}
 
+## Introduction
 As technology advances and companies continue to collect and process large amounts of personal data and most data project requires data governance with data security, data privacy within the platform. From a data engineering perspective, how do we comply with those requirements?
 
 **Summary**: in the article, Author pointed out details of scenarios and use cases with sample implementation on Databricks and follow Lakehouse architecture.

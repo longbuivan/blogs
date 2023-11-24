@@ -2,8 +2,14 @@
 layout: post
 title: "Data Engineering Question List"
 date: 2023-04-27 09:34:00 +0700
+modified: 2023-11-24 13:02:00 +0700
+description: Question used for interview
 categories: blog
+comments: true
+tags: [datadev, course]
 ---
+
+{% include _toc.html %}
 
 In order to unblock and get impressed Interviewer as well as revise data engineering knowledge, this list or question is good source to walk through and practice.
 

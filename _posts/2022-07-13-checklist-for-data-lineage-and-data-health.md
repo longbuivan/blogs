@@ -3,9 +3,10 @@ layout: post
 title: "Check List for Data Lineage and Data Health during Data Platform Implementation"
 date: 2022-07-13 11:21:00 +0700
 categories: blog
+comments: true
 ---
-
-
+{% include _toc.html %}
+# Introduction
 When designing and developing data platforms, good data is more important than large data and Data Lineage & Data Health are the techniques that architects & engineers often use to control data quality from pre-processing to post-processing. Applying Data Lineage and Data Quality in an effective way will significantly eliminate the **hard-core** 5Vs character in Big Data.
 
 ## Data Lineage

@@ -2,9 +2,14 @@
 layout: post
 title: "Data Pipeline Design Framework"
 date: 2023-01-05 10:19:00 +0700
+modified: 2023-11-24 13:02:00 +0700
+description: Question used for interview
 categories: blog
----
+comments: true
+tags: [datadev, course]
 
+---
+{% include _toc.html %}
 # Data Pipeline Design Framework
 
 To improve and strongly go-live the data pipeline, besides apply best practices and pillar for Data Pipeline Native Solution, a design framework and pattern are robustly help us in:

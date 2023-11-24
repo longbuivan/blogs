@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+
+## [1.2.0] 2023-11-24
+
+- Add Disqus comments
+- 
 ## [1.2.0] 2023-11-14
 
 - New Domain added
@@ -29,4 +34,4 @@ All notable changes to this project will be documented in this file.
 
 ## [1.0.0] 2021-12-20
 
-- First version of my profile with the [github.longdatadevlog.com](https://github.longdatadevlog.com)
+- First version of my profile with the [github.longdatadevlog.com](https://blogs.longdatadevlog.com)

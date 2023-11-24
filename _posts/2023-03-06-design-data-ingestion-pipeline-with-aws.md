@@ -2,8 +2,14 @@
 layout: post
 title: "Design Data Ingestion Pipeline with AWS - Amazon Web Services"
 date: 2023-03-06 09:34:00 +0700
+modified: 2023-11-24 13:02:00 +0700
+description: How to implement Data pipeline, from end to end
 categories: blog
+comments: true
+tags: [datadev, course]
 ---
+{% include _toc.html %}
+
 Traditional Design of Data Ingestion Pipeline
 
 ## 1. Requirements Analysis

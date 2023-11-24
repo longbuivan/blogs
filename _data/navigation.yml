@@ -16,3 +16,12 @@
 
 - title: Engineering Handbook
   url: https://de-book.longdatadevlog.com
+  external: true
+
+- title: Uses
+  url: https://uses.longdatadevlog.com
+  external: true
+
+- title: Source
+  url: https://github.com/longbuivan/blogs
+  external: true

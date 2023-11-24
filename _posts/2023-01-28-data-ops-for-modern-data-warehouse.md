@@ -2,8 +2,13 @@
 layout: post
 title: "DataOps Checklist for Implementing Analytics Data Warehouse"
 date: 2023-01-28 10:13:00 +0700
+modified: 2023-11-24 13:02:00 +0700
+description: Checklist when implementing Analytics Data Warehouse
 categories: blog
+comments: true
+tags: [datadev, course]
 ---
+{% include _toc.html %}
 
 # _From DevOps to DataOps_
 

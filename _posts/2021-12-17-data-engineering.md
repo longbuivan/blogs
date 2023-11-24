@@ -2,8 +2,14 @@
 layout: post
 title: "Data Engineering"
 date: 2021-5-5 01:09:00 +0700
+modified: 2023-11-24 13:02:00 +0700
+description: Getting Started with Data Engineering Role
 categories: blog
+comments: true
+tags: [datadev, course]
 ---
+{% include _toc.html %}
+# Introduction
 
 This topic will discuss about who is data engineer in data platform and what they do for bring the data available for users. How to be come data engineer with needed skills.
 

@@ -3,7 +3,9 @@ layout: post
 title: "Data Lineage as Networking Relationship"
 date: 2022-08-25 16:06:00 +0700
 categories: blog
+comments: true
 ---
+{% include _toc.html %}
 
 As previous post, we were walk through why and principles we should follow during design and implement data pipeline. In this topic I will let you go to how data lineage be implemented as network.
 

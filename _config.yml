@@ -2,19 +2,25 @@
 title: LongBui's
 # description: Hi there, I'm Long, a data engineer and writer.
 
+disqus_shortname: LongBui
 owner:
   name: Long Bui
+  disqus-shortname: LongBui
   avatar: bio-photo.jpg
   bio: "I am Long, Data Developer and Technical Writer"
   email: longbuivan95@gmail.com
   linkedin: long-bui-van-368816161/
   github: longbuivan
+  youtube: longbui.engineering
 
 highlight-color: "#CC0000"
 lowlight-color: "#000"
 
 permalink: /:categories/:title/
 markdown: kramdown
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+
 highlighter: rouge
 sass:
   sass_dir: _sass
@@ -29,3 +35,10 @@ kramdown:
   entity_output: as_char
   toc_levels: 1..6
   enable_coderay: false
+  
+  coderay:
+    coderay_line_numbers: 
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class

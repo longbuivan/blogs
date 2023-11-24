@@ -2,9 +2,13 @@
 layout: post
 title: "Touching into Spark Application"
 date: 2022-01-18 20:38:00 +0700
+modified: 2023-11-24 13:02:00 +0700
+description: Improve Spark Application
 categories: blog
+comments: true
+tags: [datadev, course]
 ---
-
+{% include _toc.html %}
 # How to optimize Spark Application
 
 ## Problems
