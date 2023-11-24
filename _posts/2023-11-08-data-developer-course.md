@@ -7,6 +7,7 @@ description: Introduction to the Data Developer Course to build your fundamental
 categories: blog
 comments: true
 tags: [datadev, course]
+
 ---
 
 {% include _toc.html %}
