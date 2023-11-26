@@ -1,8 +1,16 @@
-This repo generates LongBui's site.
+# LongBui's Homepage
 
-Keep tracking of the Data Development Logs
+[https//:blogs.longdatadevlog.com](https//:blogs.longdatadevlog.com)
 
-* Technical consulting and architecting Data: working with data as full-time/contract jobs
-* Development OpenDataSolution: building a data toolkit for data engineering StringX
-* Data Developer Course: teaching Data Engineering, Data Development, bring fundamental knowledge to developers
-* Technical blogging: Visit blogs , talk
+![Homepage](images/BgReadme.png)
+
+## Tutorial
+
+- On local, run `sh local-run.sh`
+- Watch video on Youtube (Not available yet)
+
+# License
+
+MIT License.
+
+You can create your own homepage for free without notifying me by forking this project under the following conditions, it's great if you can star
