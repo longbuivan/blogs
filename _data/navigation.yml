@@ -1,6 +1,4 @@
 # Site navigation links
-- title: Home
-  url: /
 
 # - title: CV
 #   url: /cv/
@@ -24,4 +22,8 @@
 
 - title: Source
   url: https://github.com/longbuivan/blogs
+  external: true
+
+- title: Youtube
+  url: https://youtube.com/@longbui.engineering
   external: true
