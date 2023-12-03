@@ -15,6 +15,6 @@ All of blogs posted here [this blog](https://blogs.longdatadevlog.com/blog/), bu
 * [Checklist for Data Architect](https://blogs.longdatadevlog.com/blog/modern-data-architecture-assessment)
 
 ## Follow for more information about data development
-* [Data Devlog](https://www.youtube.com/@longbui.engineering)
+* [Data Devlog](https://www.youtube.com/@longdatadevlog)
 * [LongDataDevLog](https://www.longdatadevlog.com)
 * [Resume template](https://drive.google.com/file/d/1hPgMM4gVOzBHHzehQRf5dxOCrIHJkhDo/view?usp=sharing)

@@ -25,7 +25,7 @@ I designed the course with 7 years experience in data development, the course ca
 
 - [Tooling Settings](https://youtu.be/Oq7En4lwRO0)
 
-You can Subscribe to my channel at [https://www.youtube.com/@longbui.engineering](https://www.youtube.com/@longbui.engineering) for more Video, Podcast about Data Development.
+You can Subscribe to my channel at [https://www.youtube.com/@longdatadevlog](https://www.youtube.com/@longdatadevlog) for more Video, Podcast about Data Development.
 
 ## Contents
 
