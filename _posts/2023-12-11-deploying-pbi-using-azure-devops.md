@@ -46,10 +46,10 @@ You might know the DevOps that we deploy software application via code package, 
 
 You can deploy using `Publish` feature of Power BI, but it is not recommended because a lot of struggle you would have to resolved if manually trigger workspace publication. And it is not **AUTOMATION** will do.
 
-![BI-Ops Process](../images/post/bi-ops/bi-ops.png)
+![BI-Ops Process](/images/post/bi-ops/bi-ops.png)
 
 Check out the video for getting an example.
 
-![BI Dashboard](../images/post/bi-ops/BI-Daskboard.png)
+![BI Dashboard](/images/post/bi-ops/BI-Daskboard.png)
 
 {% include _disqus_comments.html %}
