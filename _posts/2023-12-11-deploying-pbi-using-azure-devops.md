@@ -18,10 +18,10 @@ Automatic Deployment Process with CICD.
 
 Watch YouTube video here: [https://youtu.be/LOtYqODiC8Q](https://youtu.be/LOtYqODiC8Q)
 
-![Youtube video](../images/post/bi-ops/youtube-post.png)
+![Youtube video](/images/post/bi-ops/youtube-post.png)
 CICD is the process of planning, implementing, testing and deploying and repeating the process. Using Agile to implement CICD workflow is a great way to develop software.
 
-![CICD process](../images/post/bi-ops/CICd.jpg)
+![CICD process](/images/post/bi-ops/CICd.jpg)
 
 1. Plan: Preparing Backlog and getting User Strory are ready for development
 2. Code: Create/modify the source code
@@ -36,7 +36,7 @@ CICD is the process of planning, implementing, testing and deploying and repeati
 
 In order to implement CICD workflow, using Azure DevOps with combination of tool sets in below example:
 
-![Azure DevOps](../images/post/bi-ops/azure-devops.jpg)
+![Azure DevOps](/images/post/bi-ops/azure-devops.jpg)
 
 *Notes*: The tool sets are different by platform and provider but the process is the same.
 
