@@ -62,4 +62,6 @@ You can Subscribe to my channel at [https://www.youtube.com/@longdatadevlog](htt
 - Development RoadMap
 - Tooling Setup
 
+Slides document of this course [Data Engineering 101 Course - Documentation](https://payhip.com/b/steho)
+
 {% include _disqus_comments.html %}

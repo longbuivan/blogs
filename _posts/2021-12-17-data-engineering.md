@@ -13,6 +13,8 @@ tags: [datadev, course]
 
 This topic will discuss about who is data engineer in data platform and what they do for bring the data available for users. How to be come data engineer with needed skills.
 
+Watch this Youtube playlist for enssentials skills for data engineer [Data Engineering 101 Course](https://youtube.com/playlist?list=PLJol4u7_9M9Z_8aZVhbnGawXZhd1YVqbk&si=j2jZ9dAYe_JNex09)
+
 ## Data Engineer Scope
 
 - Design and building system for collecting, storing and analyzing data at scale.
