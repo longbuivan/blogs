@@ -14,7 +14,7 @@ tags: [data, pbi, devops]
 
 ## Introduction of CICD
 
-Automatic Deployment Process with CICD.
+This post is quick introduction about "How to Automatic Deploy Power BI Dashboard to Cloud for Azure Data Engineering Project"
 
 Watch YouTube video here: [https://youtu.be/LOtYqODiC8Q](https://youtu.be/LOtYqODiC8Q)
 
@@ -23,7 +23,7 @@ CICD is the process of planning, implementing, testing and deploying and repeati
 
 ![CICD process](/images/post/bi-ops/CICd.jpg)
 
-1. Plan: Preparing Backlog and getting User Strory are ready for development
+1. Plan: Preparing Backlog and getting User Story are ready for development
 2. Code: Create/modify the source code
 3. Build: Build or compile the source code
 4. Test: running Unit Tests and other tests
