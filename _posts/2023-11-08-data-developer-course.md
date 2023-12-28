@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Data Developer Course"
+title: "Data Engineering 101 Course"
 date: 2023-11-08 19:02:00 +0700
 modified: 2023-11-24 13:02:00 +0700
-description: Introduction to the Data Developer Course to build your fundamental knowledge
+description: Introduction to the Data Engineering 101 Course to build your fundamental knowledge
 categories: blog
 comments: true
 tags: [datadev, course]
@@ -14,8 +14,9 @@ tags: [datadev, course]
 
 ## About the Course
 
-- Targets: this course is for building fundamental knowledge for data engineer (data developer)
+- Targets: this course is for building fundamental knowledge for data engineer (data developer) - fullstack data engineer
 - Owner: Long Bui (longdatadevlog)
+- Full playlist of Data Engineering 101 Course [YouTube DE Playlist](https://youtube.com/playlist?list=PLJol4u7_9M9Z_8aZVhbnGawXZhd1YVqbk&feature=shared)
 
 I designed the course with 7 years experience in data development, the course can help you to have foundation of data engineering, software engineering. You can be able to understand the fundamental of data system and what have been changing in data.
 
