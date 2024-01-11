@@ -2,11 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.0] 2023-11-24
+
+- Add Consulting Pages and Other Resources
 
 ## [1.2.0] 2023-11-24
 
 - Add Disqus comments
-- 
+
 ## [1.2.0] 2023-11-14
 
 - New Domain added
