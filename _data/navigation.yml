@@ -3,7 +3,7 @@
 # - title: CV
 #   url: /cv/
 
-- title: Blog
+- title: Tech Post
   url: /blog/
 
 # - title: List 100
@@ -16,13 +16,13 @@
   url: https://de-book.longdatadevlog.com
   external: true
 
-- title: Uses
-  url: https://uses.longdatadevlog.com
-  external: true
+# - title: Support
+#   url: https://buymeacoffee
+#   external: true
 
-- title: Gitbooks
-  url: https://blogs.longdatadevlog.com/blog
-  external: true
+# - title: Gitbooks
+#   url: https://blogs.longdatadevlog.com/blog
+#   external: true
 
 - title: Youtube
   url: https://youtube.com/@longdatadevlog

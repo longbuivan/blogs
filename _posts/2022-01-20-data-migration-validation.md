@@ -189,6 +189,20 @@ def _field_compare(S3_LOCATION):
         print(f'Total count of different record: {matching_count} in table {table}')
 ```
 
+## Further Enhancements
+
+Nowadays, the Data Quality Gate has defined to support engineering the data and control data quality to make sure only GOOD Data (qualified data) will be merged into Production.
+
+Let's explore DataOps to be more understanding how does it work and how it support data controlling.
+
+There are 5 essential data quality rules:
+
+- Uniqueness
+- Non-nulless
+- Accepted Value
+- Relationships and referential integrity
+- Freshness and recency
+
 ## Conclusion
 
 This step is very important and can be considered as gating for release to Production when migrating data from legacy system.
