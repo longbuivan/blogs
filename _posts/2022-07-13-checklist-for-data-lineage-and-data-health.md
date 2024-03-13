@@ -2,8 +2,11 @@
 layout: post
 title: "Check List for Data Lineage and Data Health during Data Platform Implementation"
 date: 2022-07-13 11:21:00 +0700
-categories: blog
+categories: Blog
 comments: true
+tags:
+  - data-engineering
+  - data-lineage
 ---
 {% include _toc.html %}
 # Introduction

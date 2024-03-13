@@ -4,9 +4,11 @@ title: "GDPR AND CCPA COMPLIANCE IN DATA PIPELINE"
 date: 2023-02-21 15:13:00 +0700
 modified: 2023-11-24 13:02:00 +0700
 description: Question about Data Security and Privacy
-categories: blog
+categories: Blog
 comments: true
-tags: [datadev, course]
+tags:
+    - data-engineering
+    - data-security
 ---
 {% include _toc.html %}
 

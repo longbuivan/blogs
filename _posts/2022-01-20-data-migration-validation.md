@@ -4,9 +4,12 @@ title: "Data Migration Validation"
 date: 2022-01-25 11:05:00 +0700
 modified: 2023-11-24 13:02:00 +0700
 description: Quality Dimension during data migration
-categories: blog
+categories: Blog
 comments: true
-tags: [datadev, course]
+tags:
+  - data-engineering
+  - data-lineage
+  - data-migration
 ---
 {% include _toc.html %}
 # Data Migration Validation

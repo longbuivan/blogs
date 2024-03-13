@@ -25,10 +25,18 @@
         <br style="line-break: strict; "
         >
         
-        Post Tags: 
-        {% for tag in page.tags%}
-        <li><a href="{{ site }}{{ tag }}" >#{{tag}}</a></li>
+
+        <h1> Tag Cloud</h1> 
+        {% assign tags = site.tags | sort %}
+        {% for tag in tags %}
+         <span class="site-tag">
+            <a href="/tags/"
+                style="font-size: {{ tag | last | size  |  times: 4 | plus: 80  }}%">
+                    {{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})
+            </a>
+        </span>
         {% endfor %}
+    
       </div>
     </div>
     <article class="post" style="margin: 100px;">

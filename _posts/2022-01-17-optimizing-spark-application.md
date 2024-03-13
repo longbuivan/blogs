@@ -4,9 +4,12 @@ title: "Touching into Spark Application"
 date: 2022-01-18 20:38:00 +0700
 modified: 2023-11-24 13:02:00 +0700
 description: Improve Spark Application
-categories: blog
+categories: Blog
 comments: true
-tags: [datadev, course]
+tags:
+  - data-engineering
+  - data-lineage
+  - spark
 ---
 {% include _toc.html %}
 # How to optimize Spark Application

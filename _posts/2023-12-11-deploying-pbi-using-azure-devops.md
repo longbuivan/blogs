@@ -4,9 +4,12 @@ title: "How to deploy Power BI using Azure DevOps(CICD)"
 date: 2023-12-11 11:11:00 +0700
 modified: ""
 description: Introduction CICD, Azure DevOps to BI-Ops and demo deployment
-categories: blog
+categories: Project
 comments: true
-tags: [data, pbi, devops]
+tags:
+    - data-visualization
+    - powerBI
+    - devops
 
 ---
 

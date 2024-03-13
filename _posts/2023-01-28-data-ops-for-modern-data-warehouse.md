@@ -4,9 +4,12 @@ title: "DataOps Checklist for Implementing Analytics Data Warehouse"
 date: 2023-01-28 10:13:00 +0700
 modified: 2023-11-24 13:02:00 +0700
 description: Checklist when implementing Analytics Data Warehouse
-categories: blog
+categories: Blog
 comments: true
-tags: [datadev, course]
+tags:
+  - data-engineering
+  - dataops
+  - devops
 ---
 {% include _toc.html %}
 
@@ -22,8 +25,11 @@ Here is a checklist of implementations of the DataOps process, especially for da
 
 ### Data governance
 
-- A central location is used to register data sources, most of data data platform is missing this component for registration of data source onboarding: The solution for this is help non-technical users can register their dataset to Data Lake for further processing. The solution for this is a combination of of (1) PowerApp for quickly creating e-forms for datasets metadata registration, (2) LogicApp for customizing the workflow of validation, trigger Data Factory ingestion jobs via API, and (3) Save metadata to MDM - Master Data Management.
-  ![alt text](/images/post/dataops/data-onboarding.png)
+- A central location is used to register data sources, most of data data platform is missing this component for registration of data source onboarding: The solution for this is help non-technical users can register their dataset to Data Lake for further processing. The solution for this is a combination of of (1) PowerApp for quickly creating e-forms for datasets metadata registration, (2) LogicApp for customizing the workflow of validation, trigger Data Factory ingestion jobs via API, and (3) Save metadata to MDM.
+
+- Master Data Management.
+
+![alt text](/images/post/dataops/data-onboarding.png)
 
 - Data lineage and metadata are available.
 - Data is easily discoverable by users, and sensitive data is secured.

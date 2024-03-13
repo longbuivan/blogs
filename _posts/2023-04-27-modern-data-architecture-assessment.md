@@ -4,9 +4,12 @@ title: "Modern Data Architecture Assessments with Azure"
 date: 2023-04-27 18:16:00 +0700
 modified: 2023-11-24 13:02:00 +0700
 description: Using to evaluate data warehouse with Azure Cloud provider, extended features to other platform
-categories: blog
+categories: Blog
 comments: true
-tags: [datadev, course]
+tags:
+  - data-engineering
+  - azure
+  - data-architecture
 ---
 
 {% include _toc.html %}

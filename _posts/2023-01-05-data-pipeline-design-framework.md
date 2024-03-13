@@ -4,10 +4,11 @@ title: "Data Pipeline Design Framework"
 date: 2023-01-05 10:19:00 +0700
 modified: 2023-11-24 13:02:00 +0700
 description: Question used for interview
-categories: blog
+categories: Learning
 comments: true
-tags: [datadev, course]
-
+tags:
+  - data-engineering
+  - data-pipeline
 ---
 {% include _toc.html %}
 # Data Pipeline Design Framework

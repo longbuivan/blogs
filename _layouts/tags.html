@@ -1,0 +1,97 @@
+
+
+
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+  {% include _head.html %}
+</head>
+
+<body class="post">
+
+  {% include _browser-upgrade.html %}
+
+  {% include _navigation.html %}
+
+
+
+  <div id="main" role="main">
+    <div class="article-author-side">
+      {% include _author-bio.html %}
+      <div class="style" style="padding-top: 3em;">
+        <br style="line-break: strict; "
+        >
+    
+      </div>
+    </div>
+    <article class="post" style="margin: 100px;">
+   
+      {% assign tags = site.tags | sort %}
+      {% for tag in tags %}
+       <!-- <span class="site-tag">
+          <a href="/tag/{{ tag | first | slugify }}/"
+              style="font-size: {{ tag | last | size  |  times: 4 | plus: 80  }}%">
+                  {{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})
+          </a>
+      </span> -->
+      <a href="#{{ tag[0] | slugify }}" class="btn btn-default" style="font-size: {{ tag | last | size  |  times: 4 | plus: 80  }}%"> <!-- style="color: #1C1C1C;" is font color of cloud index -->
+        <span class="fa fa-folder-open" aria-hidden="true"> 
+          {{ tag[0] }} <i class="badge">{{ tag | last | size }}</i>
+        </span>
+      </a>
+      {% endfor %}
+  
+      <hr/> 
+      <div class="post-preview"> 
+        {% for tag in tags %} 
+          <h2 id="{{ tag[0] | slugify }}" style="padding-top: 70px;"> {{ tag[0] }}  <i class="badge">{{ tag | last | size }}</i></h2>
+          <ul class="later on">
+            {% for post in tag[1] %}
+              <a class="post-subtitle" href="{{ site.baseurl }}{{ post.url }}">
+            <li>
+              {{ post.title }}
+            <small class="post-meta"> - Posted on {{ post.date | date: "%B %-d, %Y" }}</small>
+            </li>
+            </a>
+            {% endfor %}
+          </ul>
+            <a href="#top" class="btn btn-default">
+              <span class="fa fa-refresh" aria-hidden="true"></span> Go back to the top
+            </a> 
+            <hr/>
+        {% endfor %}
+      </div>
+  
+  
+    </article>
+  </div><!-- /#main -->
+
+  <div class="footer-wrap">
+    {% if site.related_posts.size > 0 %}
+    <div class="related-articles">
+      <h4>You might also enjoy <small class="pull-right">(<a href="{{ site.github.url }}/blog/">View all
+            posts</a>)</small></h4>
+      <ul>
+        {% for post in site.related_posts limit:3 %}
+        <li><a href="{{ site.github.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+        {% endfor %}
+      </ul>
+      <hr />
+    </div><!-- /.related-articles -->
+    {% endif %}
+    <footer>
+      {% include _footer.html %}
+    </footer>
+  </div><!-- /.footer-wrap -->
+
+  {% include _scripts.html %}
+
+</body>
+
+</html>

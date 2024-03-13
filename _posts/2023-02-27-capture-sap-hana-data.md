@@ -4,9 +4,11 @@ title: "SAP HANA - Capture Data Change using Lambda"
 date: 2023-02-27 14:36:00 +0700
 modified: 2023-11-24 13:02:00 +0700
 description: Capture only data changes, delta data to improve performance
-categories: blog
+categories: Project
 comments: true
-tags: [datadev, course]
+tags:
+  - data-engineering
+  - data-pipeline
 ---
 {% include _toc.html %}
 

@@ -4,9 +4,11 @@ title: "Data Engineering 101 Course"
 date: 2023-11-08 19:02:00 +0700
 modified: 2023-11-24 13:02:00 +0700
 description: Introduction to the Data Engineering 101 Course to build your fundamental knowledge
-categories: blog
+categories: Course
 comments: true
-tags: [datadev, course]
+tags:
+    - data-engineering
+    - course
 
 ---
 

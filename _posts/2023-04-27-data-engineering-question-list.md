@@ -4,9 +4,11 @@ title: "Data Engineering Question List"
 date: 2023-04-27 09:34:00 +0700
 modified: 2023-11-24 13:02:00 +0700
 description: Question used for interview
-categories: blog
+categories: Blog
 comments: true
-tags: [datadev, course]
+tags:
+   - data-engineering
+   - interview
 ---
 
 {% include _toc.html %}

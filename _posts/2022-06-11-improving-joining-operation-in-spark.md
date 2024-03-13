@@ -4,12 +4,17 @@ title: "Improving Joins Performance in Spark"
 date: 2022-06-17 11:12:00 +0700
 modified: 2023-11-24 13:02:00 +0700
 description: Question used for interview
-categories: blog
+categories: Blog
 comments: true
-tags: [datadev, course]
+tags:
+  - data-engineering
+  - data-lineage
+  - spark
+
 ---
 {% include _toc.html %}
-# Introduction
+
+## Introduction
 
 Nowadays, Spark is lighting-fast computing framework which supports in-memory processing large data on distributed system. In fact, the join operation is the most usage during dealing with several dataset in project or pipeline that needs to enrich from 2 or more dataset together as de-normalizing data processing.
 

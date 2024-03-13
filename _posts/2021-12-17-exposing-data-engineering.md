@@ -4,9 +4,10 @@ title: "Exposing Data Engineer"
 date: 2021-12-17 05:09:00 +0700
 modified: 2023-11-24 13:02:00 +0700
 description: If you want to beyond Data Engineer to Data Developer and Fullstack Data Engineer
-categories: blog
+categories: Learning
 comments: true
-tags: [datadev, course]
+tags:
+    - data-engineering
 ---
 {% include _toc.html %}
 

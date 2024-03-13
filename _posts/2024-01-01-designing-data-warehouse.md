@@ -3,10 +3,14 @@ layout: post
 title: "Understanding the Fundamentals of Data Warehousing"
 date: 2024-01-01 16:31:00 +0700
 modified: ""
+# author: Long Bui Van
+github_id: longbuivan
 description: Understanding the Fundamentals of Data Warehousing, Building resilent data warehouse
-categories: blog
+categories: Work
 comments: true
-tags: [dataengineering , datawarehouse]
+tags: 
+    - data-engineering
+    - data-warehouse
 
 ---
 

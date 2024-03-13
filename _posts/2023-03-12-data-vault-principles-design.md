@@ -4,9 +4,13 @@ title: "Data Vault Principles"
 date: 2023-03-13 13:52:00 +0700
 modified: 2023-11-24 13:02:00 +0700
 description: Data Vault Architect Documentation
-categories: blog
+categories: Blog
 comments: true
-tags: [datadev, course]
+tags: 
+    - data-engineering
+    - data-vault
+    - data-architecture
+    - data-warehouse
 ---
 
 {% include _toc.html %}

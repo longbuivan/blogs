@@ -4,9 +4,12 @@ title: "1 HOUR for setting data pipeline"
 date: 2023-02-23 13:07:00 +0700
 modified: 2023-11-24 13:02:00 +0700
 description: With Azure, configuration services to build a data pipeline faster
-categories: blog
+categories: Project
 comments: true
-tags: [datadev, course]
+tags:
+  - data-engineering
+  - data-pipeline
+
 ---
 {% include _toc.html %}
 

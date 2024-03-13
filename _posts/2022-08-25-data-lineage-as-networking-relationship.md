@@ -2,8 +2,11 @@
 layout: post
 title: "Data Lineage as Networking Relationship"
 date: 2022-08-25 16:06:00 +0700
-categories: blog
+categories: Project
 comments: true
+tags:
+  - data-engineering
+  - data-lineage
 ---
 {% include _toc.html %}
 

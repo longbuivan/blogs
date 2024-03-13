@@ -1,12 +1,12 @@
 # theme: minima
-title: LongBui's Homepage
+title: Long Bui's Homepage
 # description: Hi there, I'm Long, a data engineer and writer.
 url: https://blogs.longdatadevlog.com
 
-disqus_shortname: LongBui
+disqus_shortname: Long Bui
 owner:
   name: Long Bui
-  disqus-shortname: LongBui
+  disqus-shortname: Long Bui
   avatar: bio-photo.jpg
   bio: "I am Long, Data Engineer and Technical Writer"
   email: longbuivan95@gmail.com
@@ -18,7 +18,9 @@ owner:
 highlight-color: "#CC0000"
 lowlight-color: "#000"
 
-permalink: /:categories/:title/
+# permalink: /:categories/:title/
+permalink: pretty
+
 markdown: kramdown
 redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]

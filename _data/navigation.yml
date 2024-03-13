@@ -14,11 +14,11 @@
 
 - title: Engineering Handbook
   url: https://de-book.longdatadevlog.com
-  external: true
+  external: false
 
-# - title: Support
-#   url: https://buymeacoffee
-#   external: true
+- title: Resources
+  url: /resources/
+  external: false
 
 # - title: Gitbooks
 #   url: https://blogs.longdatadevlog.com/blog

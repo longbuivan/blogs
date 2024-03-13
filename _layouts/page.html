@@ -23,18 +23,28 @@
     </div>
     <article class="page">
       <h1>{{ page.title }}</h1>
-      <div class="article-wrap" ">
+      <div class="article-wrap">
         {{ content }}
         {% if page.share != false %}
         <hr />
-        {% include _social-share.html %}
         {% endif %}
       </div><!-- /.article-wrap -->
-      {% if site.owner.disqus-shortname and page.comments == true %}
-      <section id="disqus_thread"></section><!-- /#disqus_thread -->
-      {% endif %}
+
+      <h2> I'm blogging about: </h2>
+      {% assign tags = site.tags | sort %}
+      {% for tag in tags %}
+       <span class="site-tag">
+          <a href="/tags/{{ tag | first | slugify }}/"
+              style="font-size: {{ tag | last | size  |  times: 4 | plus: 80  }}%">
+                  {{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})
+          </a>
+      </span>
+      
+      {% endfor %}
     </article>
+
   </div><!-- /#index -->
+      
 
   <div class="footer-wrap">
     <footer>

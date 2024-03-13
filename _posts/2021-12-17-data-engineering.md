@@ -4,9 +4,10 @@ title: "Data Engineering"
 date: 2021-5-5 01:09:00 +0700
 modified: 2023-11-24 13:02:00 +0700
 description: Getting Started with Data Engineering Role
-categories: blog
+categories: Learning
 comments: true
-tags: [datadev, course]
+tags: 
+  - data-engineering
 ---
 {% include _toc.html %}
 # Introduction
